@@ -1,0 +1,803 @@
+#parent {
+  position: relative;
+}
+.bg {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 1080px;
+  background: #f1f1f1 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.side-nav-bg {
+  top: 0px;
+  left: 0px;
+  width: 89px;
+  height: 1080px;
+  background: transparent url("../img/Rectangle\ 1.svg") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  position: absolute;
+}
+.top-nav-bg {
+  top: 0px;
+  left: 89px;
+  width: 1831px;
+  height: 98px;
+  background: transparent url("../img/Rectangle 4.svg") 0% 0% no-repeat
+    padding-box;
+
+  opacity: 1;
+  position: absolute;
+}
+
+.side-nav-dia {
+  top: 0px;
+  left: 89px;
+  width: 236px;
+  height: 1080px;
+  background: #008d8d 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.search-box {
+  top: 25px;
+  left: 442px;
+  width: 680px;
+  height: 48px;
+  background: #f1f1f1 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+  position: absolute;
+}
+
+.search {
+  top: 22px;
+  left: 509px;
+  width: 143px;
+  height: 22px;
+  text-align: left;
+  font: normal normal 600 18px/22px Montserrat;
+  letter-spacing: 0px;
+  color: #2b2b2b;
+  text-transform: capitalize;
+  opacity: 0.5;
+  position: absolute;
+  white-space: nowrap;
+}
+.search-logo {
+  top: 40px;
+  left: 467px;
+  width: 20px;
+  height: 20px;
+  background: transparent url("../img/Icon feather-search.svg") 0% 0% no-repeat
+    padding-box;
+
+  opacity: 1;
+  position: absolute;
+}
+
+.list-icon {
+  top: 40px;
+  left: 356px;
+  width: 36px;
+  height: 32px;
+  background: transparent url("../img/Icon ionic-ios-menu.svg") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.bell-icon {
+  top: 33px;
+  left: 1565px;
+  width: 25px;
+  height: 32px;
+  background: transparent url("../img/Icon ionic-ios-notifications-outline.svg")
+    0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.photo {
+  top: 30px;
+  left: 1652px;
+  width: 38px;
+  height: 38px;
+  background: transparent url("../img/Ellipse 1.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.photo-name {
+  top: 22px;
+  left: 1707px;
+  width: 130px;
+  height: 22px;
+  text-align: left;
+  font: normal normal normal 18px/22px Montserrat;
+  letter-spacing: 0px;
+  color: #2b2b2b;
+  text-transform: capitalize;
+  opacity: 1;
+  position: absolute;
+}
+
+.oic-logo {
+  top: 38px;
+  left: 16px;
+  width: 58px;
+  height: 22px;
+  background: transparent url("../img/Group\ 557\ \(1\).svg") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.group-logo {
+  top: 138px;
+  left: 29px;
+  width: 30px;
+  height: 30px;
+  background: transparent url("../img/Group 607.svg") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.shop-logo {
+  top: 224px;
+  left: 24px;
+  width: 40px;
+  height: 27px;
+  background: transparent url("../img/Group 565(1).svg") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.book-logo {
+  top: 308px;
+  left: 29px;
+  width: 30px;
+  height: 32px;
+  background: transparent url("../img/Group 586.svg") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.profile-logo {
+  top: 396px;
+  left: 33px;
+  width: 23px;
+  height: 29px;
+  background: transparent url("../img/Group 592.svg") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.check-logo {
+  top: 481px;
+  left: 31px;
+  width: 27px;
+  height: 29px;
+  background: transparent url("../img/Group 609.svg") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.buy {
+  top: 140px;
+  left: 113px;
+  width: 41px;
+  height: 24px;
+  text-align: left;
+  font: normal normal bold 20px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: capitalize;
+  opacity: 1;
+  position: absolute;
+}
+.buy1 {
+  top: 193px;
+  left: 135px;
+  width: 47px;
+  height: 22px;
+  text-align: left;
+  font: normal normal normal 18px/22px Montserrat;
+  letter-spacing: 0px;
+  color: #77ff74;
+  text-transform: capitalize;
+  opacity: 1;
+  position: absolute;
+}
+.buy2 {
+  top: 244px;
+  left: 135px;
+  width: 51px;
+  height: 22px;
+  text-align: left;
+  font: normal normal normal 18px/22px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: capitalize;
+  opacity: 1;
+  position: absolute;
+}
+
+.buy3 {
+  top: 294px;
+  left: 135px;
+  width: 51px;
+  height: 22px;
+  text-align: left;
+  font: normal normal normal 18px/22px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: capitalize;
+  opacity: 1;
+  position: absolute;
+}
+
+.buy4 {
+  top: 345px;
+  left: 135px;
+  width: 53px;
+  height: 22px;
+  text-align: left;
+  font: normal normal normal 18px/22px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: capitalize;
+  opacity: 1;
+  position: absolute;
+}
+
+.buy5 {
+  top: 396px;
+  left: 135px;
+  width: 51px;
+  height: 22px;
+  text-align: left;
+  font: normal normal normal 18px/22px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: capitalize;
+  opacity: 1;
+  position: absolute;
+}
+/*
+.arrow {
+  top: 229px;
+  left: 74px;
+  width: 16px;
+  height: 18px;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+  background: transparent url("../img/Polygon 1.svg") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  position: absolute;
+}
+*/
+
+.catalog1 {
+  top: 131px;
+  left: 356px;
+  width: 1531px;
+  height: 455px;
+  background: transparent url("../img/photo-1572635196237-14b3f281503f.png") 0%
+    0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+  position: absolute;
+}
+.catalog1-text {
+  top: 180px;
+  left: 420px;
+  width: 294px;
+  height: 121px;
+  text-align: left;
+  font: normal normal bold 50px/60px Montserrat;
+  letter-spacing: 0px;
+  color: #2b2b2b;
+  text-transform: capitalize;
+  opacity: 1;
+  position: absolute;
+}
+
+.catalog1-btn{
+  top: 394px;
+  left: 420px;
+  width: 245px;
+  height: 61px;
+  background: #03A5A5 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 20px #00000026;
+  border-radius: 5px;
+  opacity: 1;
+  position: absolute;
+}
+
+.catalog1-btn-text{
+  top: 388px;
+left: 463px;
+width: 159px;
+height: 29px;
+text-align: left;
+font: normal normal bold 24px/29px Montserrat;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: capitalize;
+opacity: 1;
+position: absolute;
+white-space: nowrap;
+}
+
+.catalog2-text {
+  top: 180px;
+  left: 1005px;
+  width: 237px;
+  height: 121px;
+  text-align: left;
+  font: normal normal bold 50px/60px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: capitalize;
+  opacity: 1;
+  position: absolute;
+}
+
+.catalog2-btn{
+  top: 394px;
+left: 1005px;
+width: 245px;
+height: 61px;
+background: #03A5A5 0% 0% no-repeat padding-box;
+box-shadow: 0px 10px 20px #0000004D;
+border-radius: 5px;
+opacity: 1;
+position: absolute;
+}
+
+.catalog2-btn-text{
+  top: 388px;
+  left: 1071px;
+  width: 114px;
+  height: 29px;
+  text-align: center;
+  font: normal normal bold 24px/29px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  opacity: 1;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.catalog3-text {
+  top: 180px;
+  left: 1518px;
+  width: 225px;
+  height: 121px;
+  text-align: left;
+  font: normal normal bold 50px/60px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: capitalize;
+  opacity: 1;
+  white-space: nowrap;
+  position: absolute;
+}
+
+.catalog3-btn{
+  top: 394px;
+left: 1518px;
+width: 245px;
+height: 61px;
+background: #03A5A5 0% 0% no-repeat padding-box;
+box-shadow: 0px 10px 20px #00000080;
+border-radius: 5px;
+opacity: 1;
+position: absolute;
+
+}
+
+.catalog3-btn-text{
+  top: 388px;
+left: 1590px;
+width: 102px;
+height: 29px;
+text-align: center;
+font: normal normal bold 24px/29px Montserrat;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: capitalize;
+opacity: 1;
+position: absolute;
+white-space: nowrap;
+}
+
+.catalog2 {
+  top: 131px;
+  left: 941px;
+  width: 513px;
+  height: 455px;
+  background: transparent url("../img/photo-1566421966482-ad8076104d8e.png") 0%
+    0% no-repeat padding-box;
+  mix-blend-mode: multiply;
+  opacity: 1;
+  position: absolute;
+}
+
+.catalog3 {
+  top: 131px;
+  left: 1454px;
+  width: 433px;
+  height: 455px;
+  background: transparent url("../img/Mask Group 1.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.catalog4 {
+  top: 698px;
+  left: 356px;
+  width: 490px;
+  height: 349px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #00000029;
+  border-radius: 5px;
+  opacity: 1;
+  position: absolute;
+}
+
+.catalog5 {
+  top: 698px;
+  left: 878px;
+  width: 490px;
+  height: 349px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #00000029;
+  border-radius: 5px;
+  opacity: 1;
+  position: absolute;
+}
+
+.catalog6 {
+  top: 698px;
+  left: 1399px;
+  width: 490px;
+  height: 349px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #00000029;
+  border-radius: 5px;
+  opacity: 1;
+  position: absolute;
+}
+
+.offer{
+  top: 631px;
+left: 356px;
+width: 220px;
+height: 29px;
+text-align: left;
+font: normal normal bold 24px/29px Montserrat;
+letter-spacing: 0px;
+color: #2B2B2B;
+text-transform: none;
+opacity: 1;
+position: absolute;
+}
+
+.glass1 {
+  top: 680px;
+  left: 379px;
+  width: 206px;
+  height: 205px;
+  background: transparent url("../img/11-glasses-png-image.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.glass2{
+  top: 745px;
+left: 892px;
+width: 227px;
+height: 135px;
+background: transparent url('../img/13-glasses-png-image.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+position: absolute;
+}
+
+.glass3{
+top: 745px;
+left: 1415px;
+width: 250px;
+height: 104px;
+background: transparent url('../img/13-glasses-png-image.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+position: absolute;
+}
+
+.text1 {
+  top: 906px;
+  left: 407px;
+  width: 134px;
+  height: 27px;
+  text-align: left;
+  font: normal normal 600 22px/27px Montserrat;
+  letter-spacing: 0px;
+  color: #2b2b2b;
+  text-transform: capitalize;
+  opacity: 1;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.ray-ban {
+  top: 995px;
+  left: 373px;
+  width: 58px;
+  height: 24px;
+  background: transparent url("../img/35367-3-ray-ban-logo-image.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.dkny {
+  top: 984px;
+  left: 459px;
+  width: 45px;
+  height: 45px;
+  background: transparent url("../img/dkny-logo-vector-1.svg") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.fastrack {
+  top: 996px;
+  left: 531px;
+  width: 45px;
+  height: 21px;
+  background: transparent url("../img/Fastrack_Logo.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.half1 {
+  top: 698px;
+  left: 604px;
+  width: 242px;
+  height: 349px;
+  background: #cfcfcf 0% 0% no-repeat padding-box;
+  border-radius: 0px 5px 5px 0px;
+  opacity: 1;
+  position: absolute;
+}
+
+.half2 {
+  top: 698px;
+  left: 1126px;
+  width: 242px;
+  height: 349px;
+  background: #cfcfcf 0% 0% no-repeat padding-box;
+  border-radius: 0px 5px 5px 0px;
+  opacity: 1;
+  position: absolute;
+}
+
+.half3 {
+  top: 698px;
+  left: 1647px;
+  width: 242px;
+  height: 349px;
+  background: #cfcfcf 0% 0% no-repeat padding-box;
+  border-radius: 0px 5px 5px 0px;
+  opacity: 1;
+  position: absolute;
+}
+.text2 {
+  top: 770px;
+  left: 644px;
+  width: 163px;
+  height: 86px;
+  text-align: left;
+  font: normal normal bold 35px/43px Montserrat;
+  letter-spacing: 0px;
+  color: #2b2b2b;
+  text-transform: capitalize;
+  opacity: 1;
+  position: absolute;
+}
+
+.text3 {
+  top: 908px;
+  left: 690px;
+  width: 80px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 15px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: capitalize;
+  opacity: 1;
+  white-space: nowrap;
+  position: absolute;
+}
+
+.text4 {
+  top: 905px;
+  left: 911px;
+  width: 186px;
+  height: 27px;
+  text-align: center;
+  font: normal normal 600 22px/27px Montserrat;
+  letter-spacing: 0px;
+  color: #2b2b2b;
+  text-transform: capitalize;
+  opacity: 1;
+  position: absolute;
+}
+
+.text5 {
+  top: 768px;
+  left: 1166px;
+  width: 153px;
+  height: 86px;
+  text-align: left;
+  font: normal normal bold 35px/43px Montserrat;
+  letter-spacing: 0px;
+  color: #2b2b2b;
+  text-transform: capitalize;
+  opacity: 1;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.text6 {
+  top: 908px;
+  left: 1212px;
+  width: 80px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 15px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: capitalize;
+  opacity: 1;
+  position: absolute;
+  white-space: nowrap;
+}
+.text7 {
+  top: 905px;
+  left: 1459px;
+  width: 132px;
+  height: 27px;
+  text-align: center;
+  font: normal normal 600 22px/27px Montserrat;
+  letter-spacing: 0px;
+  color: #2b2b2b;
+  text-transform: capitalize;
+  opacity: 1;
+  position: absolute;
+}
+
+.text8 {
+  top: 768px;
+  left: 1687px;
+  width: 163px;
+  height: 86px;
+  text-align: left;
+  font: normal normal bold 35px/43px Montserrat;
+  letter-spacing: 0px;
+  color: #2b2b2b;
+  text-transform: capitalize;
+  opacity: 1;
+  position: absolute;
+}
+
+.text9 {
+  top: 908px;
+  left: 1733px;
+  width: 80px;
+  height: 19px;
+  text-align: left;
+  font: normal normal bold 15px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: capitalize;
+  opacity: 1;
+  position: absolute;
+  white-space: nowrap;
+}
+.btn4 {
+  top: 909px;
+  left: 644px;
+  width: 172px;
+  height: 44px;
+  background: #2b2b2b 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #00000029;
+  border-radius: 2px;
+  opacity: 1;
+  position: absolute;
+}
+.btn5 {
+  top: 909px;
+  left: 1166px;
+  width: 172px;
+  height: 44px;
+  background: #2b2b2b 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #00000029;
+  opacity: 1;
+  position: absolute;
+}
+
+.btn6 {
+  top: 909px;
+  left: 1687px;
+  width: 172px;
+  height: 44px;
+  background: #2b2b2b 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #00000029;
+  opacity: 1;
+  position: absolute;
+}
+
+.ray-ban1 {
+  top: 995px;
+  left: 895px;
+  width: 58px;
+  height: 24px;
+  background: transparent url("../img/35367-3-ray-ban-logo-image.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+.dkny1 {
+}
+.fastrack1 {
+  top: 996px;
+  left: 1053px;
+  width: 45px;
+  height: 21px;
+  background: transparent url("../img/Fastrack_Logo.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.ray-ban2 {
+  top: 995px;
+  left: 1416px;
+  width: 58px;
+  height: 24px;
+  background: transparent url("../img/35367-3-ray-ban-logo-image.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.dkny2 {
+}
+
+.fastrack2 {
+  top: 996px;
+  left: 1574px;
+  width: 45px;
+  height: 21px;
+  background: transparent url("../img/Fastrack_Logo.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  position: absolute;
+}
